@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      FOCA - Crasto
+    </ion-title>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+      <ion-card-header (click)="goToAlmoco()">
+        Almoço
+      </ion-card-header>
+    </ion-card>
+    
+    <ion-card>
+        <ion-card-header (click)="goToJantar()">
+          Jantar
+        </ion-card-header>
+    </ion-card>
+  
+    <button  ion-button (click)="goBack()" center bottom>GO BACK</button>
+
+</ion-content>
